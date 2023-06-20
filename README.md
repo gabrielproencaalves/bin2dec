@@ -2,7 +2,7 @@
 
 _Este repositório foi criado para fins exclusivamente didáticos._
 
-O principal objetivo do programa bin2dec (pronuncia-se _bin t'su dék_) é converter um arquivo decimal em binário e _vice versa_.
+O principal objetivo do programa bin2dec (pronuncia-se _bin t'su dék_) é converter um valor decimal em binário e _vice versa_.
 
 ## Como usar?
 
@@ -12,4 +12,4 @@ O programa aceita 1 argumento por padrão, sendo ele 'dtb' de dECIMAL tO bINARY,
 
 Este programa foi escrito com os conhecimentos obtidos no livro _The ANSI C Programming Language_.
 
-_Nota:_ este repositório foi criado a pedido do meu professor de ciência da computação.
+_Nota:_ este repositório foi criado a pedido do meu professor de ciência da computação S2.
