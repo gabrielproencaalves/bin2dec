@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
       convtype = BTD;
 
   puts("Bin2Dec, Gabriel Proença Alves (C) 2023");
-  puts("Para sair, digite \"sair\"");
+  puts("Para sair, digite \"sair\"\n");
 
   while (scanf("%lu", &input)) {
     printf("--> ");
@@ -76,6 +76,10 @@ void btd(unsigned long n)
   unsigned long i = 1;
   unsigned long x = 0;
 
+  /* verifica o primeiro algarismo
+     da direita para a esquerda, se for um,
+     acrescenta a potencia de 2 correspondente,
+     senao, pula para o próximo algarismo */
   while (n > 0) {
     x += (n % 10) * i;
     n /= 10;
