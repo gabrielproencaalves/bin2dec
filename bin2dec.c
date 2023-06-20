@@ -57,7 +57,7 @@ void dtb(unsigned long n)
 
   /* Percorre todas as casas
      até econtrar um bit positivo */
-  while ((n & x) == 0)
+  while ((n & x) == 0 && x)
     x >>= 1;
 
   /* Após encontrar, a função imprime
@@ -86,5 +86,5 @@ void btd(unsigned long n)
     i <<= 1;
   }
 
-  return;
+  printf("%lu\n", x);
 }
