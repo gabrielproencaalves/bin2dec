@@ -11,3 +11,5 @@ O programa aceita 1 argumento por padrão, sendo ele 'dtb' de dECIMAL tO bINARY,
 `./bin2dec -btd` --> inicia o bin2dec, definindo-o para converter binários em decimais.
 
 Este programa foi escrito com os conhecimentos obtidos no livro _The ANSI C Programming Language_.
+
+_Nota:_ este repositório foi criado a pedido do meu professor de ciência da computação.
